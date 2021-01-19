@@ -3,3 +3,9 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@layer utilities {
+    .h-px-500 {
+        height: 500px;
+    }
+}
